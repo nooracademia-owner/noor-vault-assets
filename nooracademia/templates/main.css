@@ -1,0 +1,61 @@
+:root {
+    --bg-dark: #0d1117;
+    --card-bg: #161b22;
+    --border-color: #30363d;
+    --accent-blue: #58a6ff;
+    --text-main: #c9d1d9;
+    --text-muted: #8b949e;
+    --code-bg: #010409;
+    --logic-gold: #d29922;
+    --success-green: #238636;
+    --noorbyte-cyan: #00d2ff;
+    --saffron: #FF9933;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.program-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #21262d;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+pre {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--code-bg);
+    color: #e6edf3;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    overflow-x: auto;
+}
+
+.explanation-section {
+    padding: 20px;
+    background-color: #1c2128;
+    border-top: 1px solid var(--border-color);
+}
