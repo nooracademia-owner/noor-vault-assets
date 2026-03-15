@@ -1,0 +1,74 @@
+/* Compact Header with Logo Integration */
+header {
+    background-color: var(--card-bg);
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 3px solid var(--saffron);
+}
+
+.logo-img {
+    max-height: 60px; /* Keeps the header compact */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.tagline-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.yt-badge {
+    background-color: #FF0000;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.tagline-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-buttons {
+    margin-top: 15px;
+}
+
+.btn-compiler {
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    background-color: var(--success-green);
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-compiler:hover {
+    background-color: #2ea043;
+    transform: translateY(-1px);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.maint-link {
+    color: var(--noorbyte-cyan);
+    text-decoration: none;
+    font-weight: 600;
+}
